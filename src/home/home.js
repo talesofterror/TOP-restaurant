@@ -6,7 +6,7 @@ const home_Tagline = document.createElement("div")
 const home_Description = document.createElement("div")
 const home_Img = document.createElement("img")
 
-function makeHome () {
+function make () {
 	home_Container.appendChild(home_Tagline)
 	home_Container.appendChild(home_Description)
 	home_Container.appendChild(home_Img)
@@ -17,5 +17,5 @@ function makeHome () {
 	return home_Container
 }
 
-module.exports = {makeHome}
+module.exports = {make}
 
