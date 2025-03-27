@@ -7,11 +7,11 @@
 	</head>
 	<body>
 		<header>
-			<h1>The Bad-o-mat</h1>
+			<h1 onclick="switcher('home')" class="title">The Bad-o-mat</h1>
 			<nav>
 				<button onclick="switcher('about')" class="nav-button">About</button>
-				<button class="nav-button">Menu</button>
-				<button class="nav-button">Contact</button>
+				<button onclick="switcher('menu')" class="nav-button">Menu</button>
+				<button onclick="switcher('contact')" class="nav-button">Contact</button>
 			</nav>
 		</header>	
 		<div id="content">

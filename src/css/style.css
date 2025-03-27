@@ -8,3 +8,11 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
+
+.title, button {
+	cursor: pointer;
+}
+
+.title:hover {
+	font-style: italic;
+}
